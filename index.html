@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>💰 Dollar => So'm 💰</h1>
+        <label for="moneyAmount">Pul miqdorini kiriting: </label>
+        <input type="number" id="moneyAmount" name="moneyAmount" />
+        <p id="err">Miqdorni kiriting</p>
+        <div class="select-box">
+          <div class="from-box">
+            <h2>FROM</h2>
+            <select name="from" id="from">
+              <option value="USD">USD</option>
+              <option value="USZ">USZ</option>
+              <option value="EUR">EUR</option>
+              <option value="RUB">RUB</option>
+              <option value="CNY">CNY</option>
+            </select>
+          </div>
+          <div class="to-box">
+            <h2>TO</h2>
+            <select name="to" id="to">
+              <option value="USD">USD</option>
+              <option value="USZ">USZ</option>
+              <option value="EUR">EUR</option>
+              <option value="RUB">RUB</option>
+              <option value="CNY">CNY</option>
+            </select>
+          </div>
+        </div>
+        <button style="margin-top: 25px;" id="btn">🔴 Hisoblash 🔴</button>
+        <h2 id="result">💰 Natija : ? so'm 💰</h2>
+      </div>
+    </div>
+
+    <script src="./yes.js"></script>
+  </body>
+</html>
